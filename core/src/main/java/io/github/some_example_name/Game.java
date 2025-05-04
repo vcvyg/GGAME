@@ -6,7 +6,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
-public class Main extends ApplicationAdapter {
+public class Game extends ApplicationAdapter {
     ShapeRenderer shapeRenderer;
     float x = 100, y = 100, size = 50, speed = 200;
     @Override
